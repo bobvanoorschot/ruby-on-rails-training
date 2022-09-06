@@ -1,0 +1,2 @@
+class ExtraBlogService < BlogService
+end
