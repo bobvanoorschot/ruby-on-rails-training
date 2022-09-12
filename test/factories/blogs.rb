@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :blog do
     title { 'Blog title' }
-    body { "MyText" }
+    body { 'MyText' }
   end
 end

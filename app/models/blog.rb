@@ -1,8 +1,8 @@
+# frozen_string_literal: true
+
 class Blog < ApplicationRecord
-    extend FriendlyId
-    friendly_id :title, use: :slugged
+  extend FriendlyId
+  friendly_id :title, use: :slugged
 
-    after_save :doe_iets
-
-    enum status: { concept: 0, published: 1, archived: 2 }
+  enum status: { concept: 0, published: 1, archived: 2 }
 end

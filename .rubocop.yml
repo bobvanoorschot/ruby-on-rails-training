@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+
+  # Do not check directories/files in the following directories.
+  # Add all files and folders here that contain offenses but are not written by us.
+  Exclude:
+    - 'bin/**/*'
+
+Style/Documentation:
+  Enabled: false
