@@ -1,0 +1,10 @@
+h1 First step
+
+.form-wrapper
+  = simple_form_for @order, url: '/form/first_step' do |f|
+    = f.input :first_name
+    = f.input :last_name
+    = f.input :email
+
+    = f.submit
+

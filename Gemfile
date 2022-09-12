@@ -44,6 +44,12 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'slim'
+gem 'simple_form'
+
+# Save sessions in the database
+gem 'activerecord-session_store'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -66,6 +72,12 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Add a comment summarizing the current schema to the top or bottom of each of your models and factories
+  gem 'annotate'
+
+  # The Bullet gem is designed to help you increase your application's performance
+  gem 'bullet'
 end
 
 group :test do
