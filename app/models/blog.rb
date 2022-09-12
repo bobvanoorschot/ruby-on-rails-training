@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: blogs
@@ -11,8 +13,8 @@
 #  status     :integer          default("concept"), not null
 #
 class Blog < ApplicationRecord
-    extend FriendlyId
-    friendly_id :title, use: :slugged
+  extend FriendlyId
+  friendly_id :title, use: :slugged
 
-    enum status: { concept: 0, published: 1, archived: 2 }
+  enum status: { concept: 0, published: 1, archived: 2 }
 end

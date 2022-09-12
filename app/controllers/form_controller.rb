@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FormController < ApplicationController
   # Create first step in order page
   def first_step
@@ -19,14 +21,11 @@ class FormController < ApplicationController
     @order = session[:order_form]
   end
 
-  def submit_second
-  end
+  def submit_second; end
 
-  def third_step
-  end
+  def third_step; end
 
-  def submit_third
-  end
+  def submit_third; end
 
   private
 

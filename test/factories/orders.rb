@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: orders
@@ -17,13 +19,13 @@
 #
 FactoryBot.define do
   factory :order do
-    first_name { "MyString" }
-    last_name { "MyString" }
-    email { "MyString" }
-    address { "MyString" }
-    zipcode { "MyString" }
-    city { "MyString" }
-    phone { "MyString" }
+    first_name { 'MyString' }
+    last_name { 'MyString' }
+    email { 'MyString' }
+    address { 'MyString' }
+    zipcode { 'MyString' }
+    city { 'MyString' }
+    phone { 'MyString' }
     status { 1 }
     payment_status { 1 }
   end

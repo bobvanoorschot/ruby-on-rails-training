@@ -1,8 +1,10 @@
-require "application_system_test_case"
+# frozen_string_literal: true
+
+require 'application_system_test_case'
 
 class FormTest < ApplicationSystemTestCase
-  test "visiting the first step" do
+  test 'visiting the first step' do
     visit form_first_step_url
-    assert_selector "h1", text: "First step"
+    assert_selector 'h1', text: 'First step'
   end
 end

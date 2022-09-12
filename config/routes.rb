@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get 'form/first_step'
   get 'form/second_step'
@@ -5,7 +7,6 @@ Rails.application.routes.draw do
   post 'form/first_step', to: 'form#submit_first'
   post 'form/second_step', to: 'form#submit_second'
   post 'form/third_step', to: 'form#submit_third'
-
 
   resources :blogs do
     collection do
@@ -19,7 +20,6 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :blogs
   end
-
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

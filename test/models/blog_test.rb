@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: blogs
@@ -10,7 +12,7 @@
 #  slug       :string
 #  status     :integer          default("concept"), not null
 #
-require "test_helper"
+require 'test_helper'
 
 class BlogTest < ActiveSupport::TestCase
   # test "the truth" do
