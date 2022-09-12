@@ -2,63 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Fix rubocop errors">
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/admin_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/admin_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/blogs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/blogs_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/blogs_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/blogs_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/blog.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/blog.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/BlogService.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/extra_blog_service.....................................rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/blogs/_blog.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/blogs/_blog.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/blogs/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/blogs/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/blogs/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/blogs/show.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/_blog.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/_blog.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/show.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/importmap" beforeDir="false" afterPath="$PROJECT_DIR$/bin/importmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/importmap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/importmap.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/permissions_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/permissions_policy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/form_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/form_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/form/address_step.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/form/name_step.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/form/payment_step.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220912173228_create_orders.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/form_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/name_step_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/factories/orders.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/order_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905110050_create_blogs.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905110050_create_blogs.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905121744_add_slug_to_blog.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905121744_add_slug_to_blog.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905123811_add_status_to_blog.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905123811_add_status_to_blog.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generators/initializer_generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generators/initializer_generator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/blog.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/blog.rake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/blogs_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/blogs_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/factories/blogs.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories/blogs.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/blog_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/blog_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/blogs_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/blogs_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +352,7 @@
       <workItem from="1662446483606" duration="2319000" />
       <workItem from="1662964127905" duration="9514000" />
       <workItem from="1663003277032" duration="61000" />
-      <workItem from="1663003559647" duration="213000" />
+      <workItem from="1663003559647" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Add first steps">
       <created>1663003028210</created>
@@ -418,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663003149090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix rubocop errors">
+      <created>1663003796081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663003796081</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
