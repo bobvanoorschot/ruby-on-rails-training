@@ -1,2 +1,9 @@
 <h1>Form#payment_step</h1>
 <p>Find me in app/views/form/payment_step.html.erb</p>
+<p>Je woont op <%= @order.address %>
+
+<%= simple_form_for @order, url: form_payment_step_url do |f| %>
+  <%= f.label :geef_consent %>
+  <%= f.input_field :consent, as: :boolean, value: :false %>
+  <%= f.button :submit, 'submit' %>
+<% end %>

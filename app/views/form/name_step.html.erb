@@ -1,2 +1,9 @@
 <h1>Form#name_step</h1>
 <p>Find me in app/views/form/name_step.html.erb</p>
+
+<%= simple_form_for @order, url: form_name_step_url do |f| %>
+  <%= f.input :first_name, error: 'vul je naam in' %>
+  <%= f.input :last_name %>
+  <%= f.input :email %>
+  <%= f.button :submit, 'submit' %>
+<% end %>

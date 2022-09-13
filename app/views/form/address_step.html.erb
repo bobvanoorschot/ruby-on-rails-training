@@ -1,2 +1,13 @@
 <h1>Form#address_step</h1>
 <p>Find me in app/views/form/address_step.html.erb</p>
+
+<%= session[:order] %>
+
+<p>Welkom <%= @order.first_name %>
+
+<%= simple_form_for @order, url: form_address_step_url do |f| %>
+  <%= f.input :address %>
+  <%= f.input :zipcode %>
+  <%= f.input :city %>
+  <%= f.button :submit, 'submit' %>
+<% end %>

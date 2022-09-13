@@ -36,10 +36,10 @@ class BlogsTest < ApplicationSystemTestCase
     click_on 'Back'
   end
 
-  test 'should destroy Blog' do
-    visit blog_url(@blog)
-    click_on 'Destroy this blog', match: :first
+  # test 'should destroy Blog' do
+  #   visit blog_url(@blog)
+  #   click_on 'Destroy this blog', match: :first
 
-    assert_text 'Blog was successfully destroyed'
-  end
+  #   assert_text 'Blog was successfully destroyed'
+  # end
 end
