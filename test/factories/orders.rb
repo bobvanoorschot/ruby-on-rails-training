@@ -7,6 +7,6 @@ FactoryBot.define do
     zipcode { "MyString" }
     city { "MyString" }
     status { :name_step }
-    payment_status { 1 }
+    payment_status { :open }
   end
 end

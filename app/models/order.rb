@@ -1,5 +1,7 @@
 class Order < ApplicationRecord
+  
   enum status: { name_step: 0, address_step: 2, payment_step: 4 }
+  enum payment_status: { open: 0, pending: 1, paid: 2 }
 
   before_validation :defaults, on: :create
   

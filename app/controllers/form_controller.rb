@@ -46,6 +46,7 @@ class FormController < ApplicationController
 
 # debugger
     if @order.update(order_params) && params[:order][:consent].to_i == 1
+      PaymentService.new(@order).call
       redirect_to form_success_step_path
     else
       render :payment_step, status: :unprocessable_entity

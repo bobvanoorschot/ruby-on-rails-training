@@ -135,8 +135,8 @@ class FormControllerTest < ActionDispatch::IntegrationTest
     #payment service? knop submit, geeft paid terug.
     check 'order[consent]'
     click_on 'submit'
-    assert_current_path form_success_step_path
 
+    assert_current_path form_success_step_path
   end
   
 
