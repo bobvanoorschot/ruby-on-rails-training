@@ -86,7 +86,6 @@ class FormControllerTest < ActionDispatch::IntegrationTest
 
     assert_current_path form_address_step_path
 
-    fill_in 'Address', with: ''
     fill_in 'Zipcode', with: '3553XP'
     fill_in 'City', with: 'Utrecht'
     click_on 'submit'
