@@ -1,5 +1,6 @@
-class OrderMailer < ApplicationMailer
+# frozen_string_literal: true
 
+class OrderMailer < ApplicationMailer
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
   #
@@ -8,6 +9,6 @@ class OrderMailer < ApplicationMailer
   def payment_success(order)
     @order = order
 
-    mail to: order.email, subject: "Payment success" 
+    mail to: order.email, subject: 'Payment success'
   end
 end

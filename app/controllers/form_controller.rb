@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 class FormController < ApplicationController
   before_action :session_order, only: %i[address_submit payment_submit]
-  
+
   def name_step
     ## Get name and create order
     @order = Order.new
-
   end
 
   def name_submit
@@ -21,6 +22,7 @@ class FormController < ApplicationController
   def address_step
     ## Retrieve existing order and add address
     return redirect_to form_name_step_path unless session[:order]
+
     session_order
   end
 
@@ -37,14 +39,14 @@ class FormController < ApplicationController
   def payment_step
     ## Retrieve order and update payment status
     return redirect_to form_name_step_path unless session[:order]
-    
+
     session_order
   end
 
   def payment_submit
     @order.status = :payment_step
 
-# debugger
+    # debugger
     if @order.update(order_params) && params[:order][:consent].to_i == 1
       PaymentService.new(@order).call
       redirect_to form_success_step_path
@@ -53,9 +55,7 @@ class FormController < ApplicationController
     end
   end
 
-  def success_step
-
-  end
+  def success_step; end
 
   # Only allow a list of trusted parameters through. / Voorkomt SQL injectie
   def order_params

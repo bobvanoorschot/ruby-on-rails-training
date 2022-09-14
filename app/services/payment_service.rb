@@ -1,16 +1,18 @@
+# frozen_string_literal: true
+
 class PaymentService
-    attr_reader :order
-    
-    def initialize(order)
-        @order = order
-    end
+  attr_reader :order
 
-    # Complete payment for order
-    def call
-        order.payment_status = :paid
-        order.save
+  def initialize(order)
+    @order = order
+  end
 
-        # Send email if status is paid
-        OrderMailer.payment_success(order).deliver_now
-    end
+  # Complete payment for order
+  def call
+    order.payment_status = :paid
+    order.save
+
+    # Send email if status is paid
+    OrderMailer.payment_success(order).deliver_now
+  end
 end
