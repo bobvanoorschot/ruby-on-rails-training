@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Use panolint">
+    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Use bundle exec for rubocop ci test">
       <change beforePath="$PROJECT_DIR$/.github/workflows/rubyonrails.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/rubyonrails.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -405,7 +405,7 @@
       <workItem from="1662964127905" duration="9514000" />
       <workItem from="1663003277032" duration="61000" />
       <workItem from="1663003559647" duration="723000" />
-      <workItem from="1663136726987" duration="2743000" />
+      <workItem from="1663136726987" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="Add first steps">
       <created>1663003028210</created>
@@ -477,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663140308584</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Use bundle exec for rubocop ci test">
+      <created>1663140402922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663140402922</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +522,8 @@
     <MESSAGE value="Install gems" />
     <MESSAGE value="Fix rubocop errors" />
     <MESSAGE value="Use panolint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use panolint" />
+    <MESSAGE value="Use bundle exec for rubocop ci test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use bundle exec for rubocop ci test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/App@Development__App.rcov" NAME="Development: App Coverage Results" MODIFIED="1662447353442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="App" />
