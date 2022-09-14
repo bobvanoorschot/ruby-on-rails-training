@@ -10,6 +10,8 @@ FactoryBot.define do
     city { Faker::Address.city }
     status { :name_step }
     payment_status { Faker::Number.within(range: 1..4) }
+    created_at { Faker::Time.between_dates(from: 6.months.ago, to: Date.today, period: :day) }
+    updated_at { Faker::Time.between_dates(from: created_at, to: Date.today) }
 
     transient do
       items_count { Faker::Number.within(range: 1..10) }

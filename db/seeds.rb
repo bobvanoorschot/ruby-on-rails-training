@@ -7,6 +7,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Faker::Config.locale = :nl
+
 10.times do |i|
   FactoryBot.create(:blog, title: "bc #{i}")
   end
