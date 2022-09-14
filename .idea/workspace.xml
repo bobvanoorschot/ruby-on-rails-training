@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Fix rubocop errors">
+      <change afterPath="$PROJECT_DIR$/.simplecov" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/form_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/form_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/form_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/form_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/order_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/order_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/extra_blog_service.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/payment_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/payment_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/validators/email_validator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/validators/email_validator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220912173228_create_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220912173228_create_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220913073106_add_email_to_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220913073106_add_email_to_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/form_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/form_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/factories/orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories/orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/order_mailer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/order_mailer_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/previews/order_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/order_mailer_preview.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/order_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/order_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/services/payment_service_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/payment_service_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +408,7 @@
       <workItem from="1662964127905" duration="9514000" />
       <workItem from="1663003277032" duration="61000" />
       <workItem from="1663003559647" duration="723000" />
-      <workItem from="1663136726987" duration="1003000" />
+      <workItem from="1663136726987" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="Add first steps">
       <created>1663003028210</created>
@@ -453,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663003796081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix rubocop errors">
+      <created>1663138556249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663138556249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

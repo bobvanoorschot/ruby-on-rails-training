@@ -59,6 +59,11 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 
   gem 'factory_bot_rails'
+
+  # Use brakeman for security
+  gem 'brakeman'
+  # Check dependencies
+  gem 'bundler-audit'
 end
 
 group :development do
