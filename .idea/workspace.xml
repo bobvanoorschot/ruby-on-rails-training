@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Fix rubocop errors">
-      <change afterPath="$PROJECT_DIR$/.simplecov" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/App.iml" afterDir="false" />
+    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Add brakeman and bundler-audit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/rubyonrails.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/rubyonrails.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +406,7 @@
       <workItem from="1662964127905" duration="9514000" />
       <workItem from="1663003277032" duration="61000" />
       <workItem from="1663003559647" duration="723000" />
-      <workItem from="1663136726987" duration="1937000" />
+      <workItem from="1663136726987" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="Add first steps">
       <created>1663003028210</created>
@@ -445,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663138556249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add brakeman and bundler-audit">
+      <created>1663139602332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663139602332</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +484,8 @@
     <MESSAGE value="Add first steps" />
     <MESSAGE value="Add first steps test" />
     <MESSAGE value="Fix rubocop errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix rubocop errors" />
+    <MESSAGE value="Add brakeman and bundler-audit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add brakeman and bundler-audit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/App@Development__App.rcov" NAME="Development: App Coverage Results" MODIFIED="1662447353442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="App" />
