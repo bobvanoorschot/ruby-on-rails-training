@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Fix rubocop errors">
-      <change afterPath="$PROJECT_DIR$/app/controllers/form_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/form_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/form/address_step.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/form/name_step.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/form/payment_step.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220912173228_create_orders.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/form_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/name_step_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/factories/orders.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/order_test.rb" afterDir="false" />
+    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Products and order_items and activeadmin">
+      <change afterPath="$PROJECT_DIR$/app/admin/orders.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/products.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/decorators/product_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220914084128_add_image_to_product.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/factories/orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories/orders.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/factories/products.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories/products.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="multistep-form" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: App">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.FormControllerTest">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -307,6 +302,37 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="FormControllerTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/form_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/test/controllers/form_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^FormControllerTest(#|::)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -333,8 +359,41 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_redirect_to_address_step" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/form_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/test/controllers/form_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_redirect_to_address_step$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.FormControllerTest" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_redirect_to_address_step" />
         <item itemvalue="Ruby.form_controller" />
         <item itemvalue="Ruby.form_controller" />
       </list>
@@ -353,6 +412,8 @@
       <workItem from="1662964127905" duration="9514000" />
       <workItem from="1663003277032" duration="61000" />
       <workItem from="1663003559647" duration="723000" />
+      <workItem from="1663136726987" duration="10730000" />
+      <workItem from="1663174727186" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="Add first steps">
       <created>1663003028210</created>
@@ -382,7 +443,70 @@
       <option name="project" value="LOCAL" />
       <updated>1663003796081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix rubocop errors">
+      <created>1663138556249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663138556249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add brakeman and bundler-audit">
+      <created>1663139602332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663139602332</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix simplecov">
+      <created>1663139814140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663139814140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Install gems">
+      <created>1663140021693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663140021693</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix rubocop errors">
+      <created>1663140294140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663140294140</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Use panolint">
+      <created>1663140308584</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663140308584</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Use bundle exec for rubocop ci test">
+      <created>1663140402922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663140402922</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Use bundle exec for rubocop ci test">
+      <created>1663140488735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663140488735</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Products and order_items and activeadmin">
+      <created>1663144526903</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663144526903</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,11 +539,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add first steps" />
     <MESSAGE value="Add first steps test" />
+    <MESSAGE value="Add brakeman and bundler-audit" />
+    <MESSAGE value="Fix simplecov" />
+    <MESSAGE value="Install gems" />
     <MESSAGE value="Fix rubocop errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix rubocop errors" />
+    <MESSAGE value="Use panolint" />
+    <MESSAGE value="Use bundle exec for rubocop ci test" />
+    <MESSAGE value="Products and order_items and activeadmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Products and order_items and activeadmin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/App@Development__App.rcov" NAME="Development: App Coverage Results" MODIFIED="1662447353442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="App" />
     <SUITE FILE_PATH="coverage/App@form_controller.rcov" NAME="form_controller Coverage Results" MODIFIED="1662449446571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="App" />
+    <SUITE FILE_PATH="coverage/App@test_redirect_to_address_step.rcov" NAME="test_redirect_to_address_step Coverage Results" MODIFIED="1663136763645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="App" />
+    <SUITE FILE_PATH="coverage/App@FormControllerTest.rcov" NAME="FormControllerTest Coverage Results" MODIFIED="1663136780533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="App" />
   </component>
 </project>

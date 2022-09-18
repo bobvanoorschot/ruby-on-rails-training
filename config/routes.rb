@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+  resources :order_items
+  resources :products
   get 'form/name_step'
   post 'form/name_step', to: 'form#name_submit'
   get 'form/address_step'

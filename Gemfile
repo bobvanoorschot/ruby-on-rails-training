@@ -37,6 +37,8 @@ gem 'redis', '~> 4.0'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
+gem 'activeadmin'
+gem 'devise'
 
 gem 'friendly_id', '~> 5.4.0'
 
@@ -47,7 +49,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'bootsnap', require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -59,6 +61,15 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 
   gem 'factory_bot_rails'
+
+  # Use brakeman for security
+  gem 'brakeman'
+  # Check dependencies
+  gem 'bundler-audit'
+
+  gem 'faker'
+
+  gem 'bullet'
 end
 
 group :development do
