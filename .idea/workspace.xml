@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Products and order_items and activeadmin">
-      <change afterPath="$PROJECT_DIR$/app/admin/orders.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/admin/products.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/decorators/product_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220914084128_add_image_to_product.rb" afterDir="false" />
+    <list default="true" id="541c9dbc-df75-4eab-86fb-e4e0d8f492eb" name="Changes" comment="Active admin pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/factories/orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories/orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/factories/products.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories/products.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,6 +407,8 @@
       <workItem from="1663003559647" duration="723000" />
       <workItem from="1663136726987" duration="10730000" />
       <workItem from="1663174727186" duration="79000" />
+      <workItem from="1663572125068" duration="15000" />
+      <workItem from="1663574215931" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="Add first steps">
       <created>1663003028210</created>

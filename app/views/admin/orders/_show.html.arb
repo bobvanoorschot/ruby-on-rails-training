@@ -1,0 +1,17 @@
+panel "Order" do
+    attributes_table_for order do
+        row :name
+        row :email
+        tag_row :status
+        tag_row :payment_status
+    end
+end
+
+panel "Order Items" do
+    table_for order.order_items do 
+        column :product
+        column :amount
+        column :price
+        column :sub_total
+    end
+end

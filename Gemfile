@@ -38,6 +38,8 @@ gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 gem 'activeadmin'
+gem 'activeadmin_addons'
+gem 'arctic_admin'
 gem 'devise'
 
 gem 'friendly_id', '~> 5.4.0'
@@ -52,7 +54,7 @@ gem 'bootsnap', require: false
 gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.2"
 
 gem 'simple_form'
 

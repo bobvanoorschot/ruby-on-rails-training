@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   resources :order_items
   resources :products
+
+  ## Form
   get 'form/name_step'
   post 'form/name_step', to: 'form#name_submit'
   get 'form/address_step'
@@ -12,6 +14,7 @@ Rails.application.routes.draw do
   get 'form/payment_step'
   patch 'form/payment_step', to: 'form#payment_submit'
   get 'form/success_step'
+
   resources :blogs do
     collection do
       post 'test'

@@ -9,12 +9,7 @@ class OrderItemsController < ApplicationController
   # GET /order_items/1 or /order_items/1.json
   def show
   end
-
-  # GET /order_items/new
-  def new
-    @order_item = OrderItem.new
-  end
-
+ 
   # GET /order_items/1/edit
   def edit
   end
@@ -58,6 +53,11 @@ class OrderItemsController < ApplicationController
   end
 
   private
+
+    def model_name
+      "order_item"
+    end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_order_item
       @order_item = OrderItem.find(params[:id])
