@@ -20,11 +20,6 @@ Rails.application.routes.draw do
       post 'test_member'
     end
   end
-
-  namespace :admin do
-    resources :blogs
-  end
-
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

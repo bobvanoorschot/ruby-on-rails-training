@@ -5,7 +5,7 @@ require 'test_helper'
 # Test PaymentService
 class PaymentServiceTest < ActiveSupport::TestCase
   test 'set order payment to paid' do
-    order = FactoryBot.create(:order)
+    order = FactoryBot.create(:order, payment_status: :open)
 
     assert_equal 'open', order.payment_status
 

@@ -4,7 +4,7 @@ require 'test_helper'
 
 class BlogsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @blog = blogs(:one)
+    @blog = FactoryBot.create(:blog)
   end
 
   test 'should get index' do
